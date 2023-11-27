@@ -1,0 +1,55 @@
+name: dinogrow
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  go_router: ^10.0.0
+  solana: ^0.29.1 
+  bip39: ^1.0.6
+  flutter_secure_storage: ^8.0.0
+  flutter_dotenv: ^5.1.0
+  web3dart: ^2.6.1
+  bip32: ^2.0.0
+  hex: 
+  borsh: ^0.3.1+2
+  borsh_annotation: ^0.3.1+3
+  solana_buffer: ^0.0.1
+  flame: 1.8.2
+  flame_forge2d: 0.14.1+1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+   
+
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.0.0
+  web3dart_builders: ^0.0.7
+
+
+flutter:
+  uses-material-design: true
+  assets:
+  - .env
+  - assets/
+  - assets/images/
+  - assets/images/dino/
+  - assets/images/dino/dead/
+  - assets/images/dino/idle/
+  - assets/images/dino/jump/
+  - assets/images/dino/run/
+  - assets/images/dino/walk/
