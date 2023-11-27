@@ -74,7 +74,7 @@ Future<String> _saveScoreSolana(
 
   final profilePda = await Ed25519HDPublicKey.findProgramAddress(
     seeds: [
-      Buffer.fromString("dinoscore"),
+      Buffer.fromString("random"),
       credentials.publicKey.bytes,
     ],
     programId: programIdPublicKey,
